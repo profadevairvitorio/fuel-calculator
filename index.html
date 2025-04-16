@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Calculadora de Combustível</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Calculadora de Combustível</h1>
+
+    <label for="gasolinePrice">Preço da Gasolina (R$)</label>
+    <input type="number" id="gasolinePrice" placeholder="Ex: 5,50" step="0.01">
+
+    <label for="ethanolPrice">Preço do Etanol (R$)</label>
+    <input type="number" id="ethanolPrice" placeholder="Ex: 4,20" step="0.01">
+
+    <button onclick="calculate()">Calcular</button>
+
+    <div id="resultDisplay"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

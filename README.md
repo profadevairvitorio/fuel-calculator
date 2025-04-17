@@ -3,11 +3,12 @@
 A simple, responsive web app that helps users decide whether to refuel with **gasoline** or **ethanol**, based on current prices.  
 If the ethanol-to-gasoline price ratio is below **0.7**, ethanol is recommended — otherwise, gasoline is more economical.
 
+![alt text](image.png)
 
 
 ## 🚀 Demo
 
-Try it locally by opening `index.html` in your browser, or [view the demo online](#) *(add link if hosted)*.
+Try it locally by opening `index.html` in your browser, or [view the demo online](https://profadevairvitorio.github.io/fuel-calculator/))*.
 
 ---
 
